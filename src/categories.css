@@ -1,0 +1,33 @@
+/* categories.css */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .filter-btn {
+    background-color: #000080;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .filter-btn:hover {
+    background-color: rgba(0, 0, 128, 0.66);
+  }
+  
+  .filter-btn:focus {
+    outline: none;
+  }
+  
+  /* Additional styles for better visual feedback on click */
+  .filter-btn:active {
+    transform: scale(0.95);
+  }
+  
